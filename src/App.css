@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.text-stroke-white {
+  -webkit-text-stroke: 2px white;
+  color: black;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+/* Banner hide hone ke baad page jo thoda neeche shift ho jata hai, usko wapas upar fix karne ke liye */
+body {
+  top: 0px !important;
+  position: static !important;
+}
+
+/* (Optional) Jab aap kisi translated text par hover karte ho, toh original text ka ek tooltip aata hai. Usko hide karne ke liye: */
+#goog-gt-tt, .goog-te-balloon-frame {
+  display: none !important;
+}
+
+/* (Optional) Translated text par hover karne par jo background highlight hota hai, usko hatane ke liye: */
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}

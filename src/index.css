@@ -1,0 +1,16 @@
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
+
+iframe[id=":1.container"] {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+  position: static !important;
+}
+
+html {
+  height: auto !important;
+}
